@@ -5,6 +5,9 @@
 <html>
 	<head>
 		<title>Eeshan Londhe</title>
+
+
+
 		<!-- favicon-->
 		<link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
 		<link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
@@ -20,7 +23,7 @@
 		<link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
 		<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
 		<link rel="manifest" href="/manifest.json">
-		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TleColor" content="#ffffff">
 		<meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
 		<meta name="theme-color" content="#ffffff">
 		<!-- /favicon-->
@@ -33,6 +36,7 @@
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-layers.min.js"></script>
 		<script src="js/init.js"></script>
+		<script src="js/typed.js"></script>
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
@@ -86,10 +90,25 @@
 
 							<header>
 								<div class="intro">
-									<h2 class="alt">Hi! I'm <strong>Eeshan Londhe</strong></h2>
-									<p>Student @ UW Electrical Engineering.<br/></p>
+									<h2 class="alt">Hi, I'm <strong>Eeshan Londhe</strong></h2>
+									<p>
+										<script>
+											$(function(){
+												$(".typingfont").typed({
+												strings: ["Student @ UW Electrical Engineering\nHardware Engineer @ Honeywell Aerospace, Summer 2015"],
+												typeSpeed: 50
+												});
+												});
+										</script>
+										<span style="white-space:pre" class="typingfont"> Student @ UW Electrical Engineering\n Hardware Engineer @ Honeywell Aerospace, Summer 2015</span><span class="typed-cursor"></span><br/>
+									</p>
 									<a href="#portfolio" class="button scrolly">View my portfolio</a>
 								</div>
+
+
+								<div class="type-wrap">
+            <span id="typed" style="white-space:pre;"></span>
+        </div>
 
 							</header>
 
