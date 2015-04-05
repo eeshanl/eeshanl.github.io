@@ -242,6 +242,10 @@
 					width: auto;
 				}
 
+.hack {
+	font-size: 25px;
+}
+
 	/* List */
 
 		ul
