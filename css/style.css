@@ -250,6 +250,12 @@
 	color: blue;
 }
 
+.linky {
+	position: fixed;
+	top: 5px;
+	right: 5px;
+}
+
 	/* List */
 
 		ul
