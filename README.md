@@ -9,3 +9,4 @@
 - HTML
 - CSS
 - JavaScript
+- Google Analytics to track how many page views I get
