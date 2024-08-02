@@ -12,6 +12,9 @@
 		background: #fff;
 	}
 
+	.scroll_text {
+		max-width: 100%;
+	}
 		body.is-loading *
 		{
 			-moz-transition: none !important;
@@ -754,6 +757,7 @@
 		padding-bottom: 400px;
 		padding-left: 50px;
 		padding-right: 50px;
+		max-width: 100%;
 	}
 
 	#main
