@@ -1,5 +1,5 @@
 /* =====================================================================
-   Eeshan Londhe - site script
+   Eeshan Londhe - site
    Vanilla JS. No frameworks. Handles:
      - typed hero effect
      - mobile nav drawer
